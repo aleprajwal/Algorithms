@@ -38,14 +38,3 @@ result = -1
                 return self.binarySearch(nums, target, self.low, self.high)
         
         return -1
-
-    
-nums = [-1, 0, 3, 5, 9, 12]
-target = 0
-
-solution = Solution()
-low = 0
-high = len(nums) - 1
-result = solution.binarySearch(nums, target, low, high)
-
-print(result)

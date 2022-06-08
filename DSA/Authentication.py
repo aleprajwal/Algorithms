@@ -23,12 +23,4 @@ class Authentication():
                 return True
         return False
 
-
-if __name__ == "__main__":
-    username, password = ["admin", "admin123"]
-    authentication = Authentication(username, password)          
-    if authentication.authentication():
-        print("logged in as {}".format(username))
-    else:
-        print("incorrect username or password")
         

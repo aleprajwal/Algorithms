@@ -62,9 +62,3 @@ class Solution():
             count_arr[num] -= 1
 
         return output_arr
-
-
-arr = [4, 2, 2, 8, 3, 3, 6, 5, 5, 1]
-solution = Solution()
-result = solution.countingSort(arr)
-print(result)    
